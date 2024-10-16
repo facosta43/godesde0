@@ -27,8 +27,8 @@ func RestoVariables() {
 
 // Video11
 func ConviertoATexto(numero int) (bool, string) {
-	var texto string
+	// var texto string
 	// texto = string(numero)
-	texto = strconv.Itoa(numero)
+	texto := strconv.Itoa(numero)
 	return true, texto
 }
