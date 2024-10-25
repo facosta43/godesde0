@@ -2,15 +2,15 @@
 package main
 
 import (
-	//Video8
-	//Video11
-	"fmt"
 	//Video9
 	//Video10
-
 	//Video12
-
-	"github.com/franklinacosta/godesde0/ejercicios"
+	//Video13
+	// "github.com/franklinacosta/godesde0/ejercicios"
+	//Video14
+	// "github.com/franklinacosta/godesde0/teclado"
+	//Video15
+	"github.com/franklinacosta/godesde0/iteraciones"
 )
 
 // Variables con icono azul, Funciones con el icono morado
@@ -49,6 +49,12 @@ func main() {
 	// }
 
 	//Video13
-	numero, mensaje := ejercicios.FuncionEjercicio1("101")
-	fmt.Println(numero, mensaje)
+	// numero, mensaje := ejercicios.FuncionEjercicio1("40")
+	// fmt.Println(numero, mensaje)
+
+	//Video14
+	//teclado.IngresoNumeros()
+
+	//Video15
+	iteraciones.Iterar()
 }
