@@ -6,11 +6,12 @@ import (
 	//Video10
 	//Video12
 	//Video13
-	// "github.com/franklinacosta/godesde0/ejercicios"
+	//Video16
+	"github.com/franklinacosta/godesde0/ejercicios"
 	//Video14
 	// "github.com/franklinacosta/godesde0/teclado"
 	//Video15
-	"github.com/franklinacosta/godesde0/iteraciones"
+	// "github.com/franklinacosta/godesde0/iteraciones"
 )
 
 // Variables con icono azul, Funciones con el icono morado
@@ -56,5 +57,8 @@ func main() {
 	//teclado.IngresoNumeros()
 
 	//Video15
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
+
+	// Video16
+	ejercicios.TablaNumerica()
 }
